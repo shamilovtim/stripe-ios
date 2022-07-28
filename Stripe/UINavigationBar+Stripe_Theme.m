@@ -33,7 +33,8 @@ static NSInteger const STPNavigationBarHairlineViewTag = 787473;
     self.barTintColor = theme.secondaryBackgroundColor;
     self.tintColor = theme.accentColor;
     self.barStyle = theme.barStyle;
-    self.translucent = theme.translucentNavigationBar;
+//  fix issues in native legacy package - tshamilov
+//  self.translucent = theme.translucentNavigationBar;
     self.titleTextAttributes = @{
                                  NSFontAttributeName: theme.emphasisFont,
                                  NSForegroundColorAttributeName: theme.primaryForegroundColor,
